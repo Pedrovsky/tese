@@ -1,6 +1,8 @@
 body{
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     background-color: rgb(192,192,192);
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 p.title{
