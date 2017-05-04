@@ -26,7 +26,7 @@
 		<p class="title"><b>Phase 1 of 4 - Let's start with some informations about yourself!</b></p>
 
 		<form class="form-label form-js-label">
-			<p class="left">First, when were you <b>born</b>?</p>
+			<p class="left">First, how <b>old are you</b>?</p>
 				<div class="form-group row">
    					<div class="col-sm-2">
    						<div class="inputs">
@@ -36,16 +36,18 @@
   				</div>
 		
 			<p class="left">Ok, what's your <b>gender</b>?</p>
-				<form class="form-inline">
-					<div class="inputsOptions">
-  						<label class="form-check-label">
-    						<input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1"> Male
-  						</label>
-  						<label class="form-check-label">
-    						<input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2"> Female
-  						</label>
-					</div>
-				</form>
+  			<div class="form-check inputsOptions">
+          <div class="radio">
+            <label class="form-check-label">
+              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1"><b>Male</b>
+            </label>
+          </div>
+          <div class="radio">
+            <label class="form-check-label">
+              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"><b>Female</b>
+            </label>
+          </div>
+        </div>
 
 			<p class="left">And what's your <b>nationality</b>?</p>
 				<div class="form-group row">
@@ -595,25 +597,38 @@
 
 
 			<p class="left">Interesting! So to end this first phase, what's the <b>highest academic degree you have accomplished</b>?</p>
-				<form class="form-inline">
-					<div class="inputsOptions">
-  						<label class="form-check-label">
-    						<input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1"> No Schooling Completed
-  						</label>
-  						<label class="form-check-label">
-    						<input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2"> High School
-  						</label>
-  						<label class="form-check-label">
-    						<input class="form-check-input" type="radio" id="inlineCheckbox3" value="option3"> Bachelor’s Degree
-  						</label>
-  						<label class="form-check-label">
-    						<input class="form-check-input" type="radio" id="inlineCheckbox4" value="option4"> Master’s Degree
-  						</label>
-  						<label class="form-check-label">
-    						<input class="form-check-input" type="radio" id="inlineCheckbox5" value="option5"> Doctorate Degree
-  						</label>
+					<div class="form-check inputsOptions">
+              <div class="radio">
+                <label class="form-check-label">
+                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1"><b>No Schooling Completed</b>
+                </label>
+              </div>
+              <div class="radio">
+                <label class="form-check-label">
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"><b>Primary School</b>
+                </label>
+              </div>
+              <div class="radio">
+                <label class="form-check-label">
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"><b>High School</b>
+                </label>
+              </div>
+              <div class="radio">
+                <label class="form-check-label">
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"><b>Bachelor’s Degree</b>
+                </label>
+              </div>
+              <div class="radio">
+                <label class="form-check-label">
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"><b>Master’s Degree</b>
+                </label>
+              </div>
+              <div class="radio">
+                <label class="form-check-label">
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"><b>Doctorate Degree</b>
+                </label>
+              </div>
 					</div>
-				</form>
 
 		<div class="continueButton">
 			<div class="text-center">
