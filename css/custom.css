@@ -49,6 +49,11 @@ div.continueButton{
     margin-top: 1%;
 }
 
+div.likert{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
 .circle {
   background: #FFFFFF;
   width: 3cm;
