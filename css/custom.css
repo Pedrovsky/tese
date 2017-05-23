@@ -27,7 +27,6 @@ img.marginbot{
 p.left{
     text-align: left;
     font-size: 16px;
-    margin-left: 5%;
 }
 
 p.center{
@@ -35,30 +34,23 @@ p.center{
     font-size: 16px;
 }
 
-div.inputs{
-    margin-left: 34%;
+div.probar{
+  margin-top: 1%;
 }
 
-div.inputsOptions{
-    margin-left: 5%;
+div.centered-row{
+  margin: auto;
+  max-width: 200%;
 }
 
 div.continueButton{
-    margin-top: 2.5%;
-}
-
-div.centerInputImages{
-    margin-left: 37.75%;
-}
-
-div.inputsCalibration{
-    margin-left: 29.25%;
+    margin-top: 1%;
 }
 
 .circle {
   background: #FFFFFF;
-  width: 4cm;
-  height: 4cm;
+  width: 3cm;
+  height: 3cm;
   border-radius: 50%;
   border:1px solid #000000;
 }
@@ -80,4 +72,8 @@ div.inputsCalibration{
       transform: translate3d(0, -10px, 0);
     }
   }
+}
+
+.form-group-1{
+  width: 60px;
 }

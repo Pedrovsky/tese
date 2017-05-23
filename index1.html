@@ -25,48 +25,54 @@
 	<div>
 		<p class="title"><b>Phase 2 of 4 - Now, it's time to make an awesome Ishihara test!</b></p>
 
-		<p class="center">Have you heard of it before? This tests if you have any kind of Color Vision Deficiencies, like Daltonism for example. We just ask you to type in the number you see on the following 6 images.
-
-     <div class="row">
-      <div class="col-sm-4">
-        <img class="img-responsive img-rounded center-block marginbot" src="imgs/cvd1.jpg" alt="12">
-        <div class="form-group col-sm-3 centerInputImages">
-          <input type="number" class="form-control" id="usr">
-        </div> 
-      </div>
-      <div class="col-sm-4">
-        <img class="img-responsive img-rounded center-block marginbot" src="imgs/cvd2.jpg" alt="29">
-        <div class="form-group col-sm-3 centerInputImages">
-          <input type="number" class="form-control" id="usr">
-        </div>  
-      </div>
-      <div class="col-sm-4">
-        <img class="img-responsive img-rounded center-block marginbot" src="imgs/cvd3.jpg" alt="74">
-        <div class="form-group col-sm-3 centerInputImages">
-          <input type="number" class="form-control" id="usr">
-        </div>  
+    <div class="row probar">
+      <div class="progress">
+        <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
+          aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:5%"> 10%
+        </div>
       </div>
     </div>
 
-     <div class="row">
-      <div class="col-sm-4">
-        <img class="img-responsive img-rounded center-block marginbot" src="imgs/cvd4.jpg" alt="45">
-        <div class="form-group col-sm-3 centerInputImages">
-          <input type="number" class="form-control" id="usr">
-        </div>  
+		<p class="center">Have you heard of it before? This tests if you have any kind of Color Vision Deficiencies, like Daltonism for example. We just ask you to type in the number you see on the following 6 images.
+
+     <div class="row text-center">
+      <form class="form-inline">
+      <div class="col-sm-4 form-group">
+        <img class="img-responsive img-rounded center-block marginbot" src="imgs/cvd1.jpg" alt="12">
+          <label for="number">Number:</label>
+          <input type="number" class="form-group-1" id="usr">
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 form-group">
+        <img class="img-responsive img-rounded center-block marginbot" src="imgs/cvd2.jpg" alt="29">
+          <label for="number">Number:</label>
+          <input type="number" class="form-group-1" id="usr">
+      </div>
+      <div class="col-sm-4 form-group">
+        <img class="img-responsive img-rounded center-block marginbot" src="imgs/cvd3.jpg" alt="74">
+          <label for="number">Number:</label>
+          <input type="number" class="form-group-1" id="usr"> 
+      </div>
+     </form>
+    </div>
+
+     <div class="row text-center continueButton">
+      <form class="form-inline">
+      <div class="col-sm-4 form-group">
+        <img class="img-responsive img-rounded center-block marginbot imgs" src="imgs/cvd4.jpg" alt="45">
+          <label for="number">Number:</label>
+          <input type="number" class="form-group-1" id="usr">
+      </div>
+      <div class="col-sm-4 form-group">
         <img class="img-responsive img-rounded center-block marginbot" src="imgs/cvd5.jpg" alt="26">
-        <div class="form-group col-sm-3 centerInputImages">
-          <input type="number" class="form-control" id="usr">
-        </div>  
+          <label for="number">Number:</label>
+          <input type="number" class="form-group-1" id="usr">
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 form-group">
         <img class="img-responsive img-rounded center-block marginbot" src="imgs/cvd6.jpg" alt="35">
-        <div class="form-group col-sm-3 centerInputImages">
-          <input type="number" class="form-control" id="usr">
-        </div>  
+          <label for="number">Number:</label>
+          <input type="number" class="form-group-1" id="usr">
       </div>
+      </form>
     </div>
 
 		<div class="continueButton">
@@ -74,6 +80,8 @@
 			 <button type="button" class="btn btn-primary btn-lg" onClick="location.href='index2.html'">Phase 2 Completed, give me phase 3!</button>
 		  </div>
     </div>
+
+    
 	</div>
 
 
