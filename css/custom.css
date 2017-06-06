@@ -20,6 +20,9 @@ img.resizecenter{
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
 img.marginbot{
     margin-bottom: 2%;
 }
@@ -29,6 +32,10 @@ p.left{
     font-size: 16px;
 }
 
+p.likert{
+  display: none;
+}
+
 p.center{
     text-align: center;
     font-size: 16px;
@@ -36,13 +43,12 @@ p.center{
 
 div.probar{
   margin-top: 1%;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 0.1%;
+  margin-right: 0.1%;
 }
 
-div.centered-row{
-  margin: auto;
-  max-width: 200%;
+.progress-bar{
+    background-color: grey;
 }
 
 div.continueButton{
@@ -60,6 +66,7 @@ div.likert{
   height: 3cm;
   border-radius: 50%;
   border:1px solid #000000;
+  display: inline-block;
 }
 
 .form-js-label {
@@ -83,4 +90,48 @@ div.likert{
 
 .form-group-1{
   width: 60px;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: center;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover,
+.rating > span:hover ~ span {
+  color: gold;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   left: 0; 
+   color: gold;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+#colorSlid{
+  background-color: rgb(192,192,192);
 }
