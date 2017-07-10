@@ -34,3 +34,7 @@ var m = document.getElementById("colorcircle1");
         case 2: blue = val; break;
     }    m.style.backgroundColor='rgba(0,0,'+blue+',1)';
 }
+
+function enableField() {
+	document.getElementById('submitbutton').disabled = false;
+}

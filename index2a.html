@@ -7,6 +7,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="imgs/favicon.ico" type="imgs/favicon">
 
 	<title>Color Blending</title>
 
@@ -78,7 +79,7 @@
         </div>
         <div class="form-group">
           <label for="number">Square Number of the Last Perceived Word:</label>
-            <select class="form-group dropdown" id="age" name="age">
+            <select class="form-group dropdown" id="age" name="age" onclick="enableField()">
               <option value="" selected="selected" disabled="disabled">Select one</option>
               <option value="1">0</option>
               <option value="1">1</option>
@@ -98,7 +99,7 @@
 
 		<div class="continueButton">
       <div class="text-center">
-			 <button type="button" class="btn btn-default btn-lg" onClick="location.href='index3.html'">Give me the last phase!</button>
+			 <button id="submitbutton" type="button" class="btn btn-default btn-lg" onClick="location.href='index3.html'" disabled="disabled">Give me the last phase!</button>
 		  </div>
     </div>
 

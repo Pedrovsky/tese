@@ -7,6 +7,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="imgs/favicon.ico" type="imgs/favicon">
 
 	<title>Color Blending</title>
 
@@ -55,7 +56,7 @@
     </div>
 
      <div class="row text-center continueButton">
-      <form class="form-inline">
+      <form name="theform" class="form-inline">
       <div class="col-sm-4 form-group">
         <img class="img-responsive img-rounded center-block marginbot imgs" src="imgs/cvd4.jpg" alt="45">
           <label for="number">Number:</label>
@@ -69,14 +70,14 @@
       <div class="col-sm-4 form-group">
         <img class="img-responsive img-rounded center-block marginbot" src="imgs/cvd6.jpg" alt="35">
           <label for="number">Number:</label>
-          <input type="number" class="form-group-1" id="usr">
+          <input type="number" class="form-group-1" id="usr" onclick="enableField()">
       </div>
       </form>
     </div>
 
 		<div class="continueButton">
       <div class="text-center">
-			 <button type="button" class="btn btn-default btn-lg" onClick="location.href='index2.html'">Phase 2 Completed, give me phase 3!</button>
+			 <button id="submitbutton" type="button" class="btn btn-default btn-lg" onClick="location.href='index2.html'" disabled="disabled">Phase 2 Completed, give me phase 3!</button>
 		  </div>
     </div>
 

@@ -7,6 +7,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="imgs/favicon.ico" type="imgs/favicon">
 
 	<title>Color Blending</title>
 
@@ -32,8 +33,8 @@
       </div>
     </div>
 
-		<form class="form-label form-js-label">
-			<p class="left">First, how <b>old are you</b>?</p>
+		<form name="theform" class="form-label form-js-label">
+			<div class="questions"><p class="left">First, how <b>old are you</b>? <a href="#"><img src="imgs/information.png" class="infoTooltip" title="Why do I need to tell you this?"></a></p></div>
 				<div class="form-group row">
    					<div class="col-sm-2">
     						<select class="form-control dropdown" id="age" name="age">
@@ -133,21 +134,21 @@
   					</div>
   				</div>
 		
-			<p class="left">Ok, what's your <b>gender</b>?</p>
+			<p class="left">Ok, what's your <b>gender</b>? <a href="#"><img src="imgs/information.png" class="infoTooltip" title="Why do I need to tell you this?"></a></p>
   			<div class="form-check">
           <div class="radio">
             <label class="form-check-label">
-              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1"><b>Male</b>
+              <input type="radio" name="optionsRadio" id="optionsRadio1" value="options1"><b>Male</b>
             </label>
           </div>
           <div class="radio">
             <label class="form-check-label">
-              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"><b>Female</b>
+              <input type="radio" name="optionsRadio" id="optionsRadio2" value="options2"><b>Female</b>
             </label>
           </div>
         </div>
 
-			<p class="left">And what's your <b>nationality</b>?</p>
+			<p class="left">And what's your <b>nationality</b>? <a href="#"><img src="imgs/information.png" class="infoTooltip" title="Why do I need to tell you this?"></a></p>
 				<div class="form-group row">
 					<div class="col-sm-2">
   							<select class="form-control dropdown" id="nationality" name="nationality">
@@ -348,7 +349,7 @@
   					</div>
 				</div>
 
-			<p class="left">I'm sure that there are some awesome places to visit there! Where have you <b>lived most of your life</b>?</p>
+			<p class="left">I'm sure that there are some awesome places to visit there! Where have you <b>lived most of your life</b>? <a href="#"><img src="imgs/information.png" class="infoTooltip" title="Why do I need to tell you this?"></a></p>
 				<div class="form-group row">
 					<div class="col-sm-2">
   							<select class="form-control dropdown" id="residenceCountry" name="residenceCountry">
@@ -606,7 +607,7 @@
   					</div>
 				</div>
 			
-			<p class="left">And what's your <b>native language</b>?</p>
+			<p class="left">And what's your <b>native language</b>? <a href="#"><img src="imgs/information.png" class="infoTooltip" title="Why do I need to tell you this?"></a></p>
 				<div class="form-group row">
 					<div class="col-sm-2">
   							<select class="form-control dropdown" id="nativeLanguage" name="nativeLanguage">
@@ -688,50 +689,52 @@
 				</div>
 
 
-			<p class="left">Interesting! So to end this first phase, what's the <b>highest academic degree you have accomplished</b>?</p>
+			<p class="left">Interesting! So to end this first phase, what's the <b>highest academic degree you have accomplished</b>? <a href="https://pedrovsky.github.io/tese/why" target="_blank"><img src="imgs/information.png" class="infoTooltip" title="Why do I need to tell you this?"></a></p>
 					<div class="form-check">
               <div class="radio">
                 <label class="form-check-label">
-                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1"><b>No Schooling Completed</b>
+                  <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" onclick="enableField()"><b>No Schooling Completed</b>
                 </label>
               </div>
               <div class="radio">
                 <label class="form-check-label">
-                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"><b>Primary School</b>
+                  <input type="radio" name="optionsRadios" id="optionsRadios4" value="option4" onclick="enableField()"><b>Primary School</b>
                 </label>
               </div>
               <div class="radio">
                 <label class="form-check-label">
-                  <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3"><b>Middle School</b>
+                  <input type="radio" name="optionsRadios" id="optionsRadios5" value="option5" onclick="enableField()"><b>Middle School</b>
                 </label>
               </div>
               <div class="radio">
                 <label class="form-check-label">
-                  <input type="radio" name="optionsRadios" id="optionsRadios4" value="option4"><b>High School</b>
+                  <input type="radio" name="optionsRadios" id="optionsRadios6" value="option6" onclick="enableField()"><b>High School</b>
                 </label>
               </div>
               <div class="radio">
                 <label class="form-check-label">
-                  <input type="radio" name="optionsRadios" id="optionsRadios5" value="option5"><b>Bachelor’s Degree</b>
+                  <input type="radio" name="optionsRadios" id="optionsRadios7" value="option7" onclick="enableField()"><b>Bachelor’s Degree</b>
                 </label>
               </div>
               <div class="radio">
                 <label class="form-check-label">
-                  <input type="radio" name="optionsRadios" id="optionsRadios6" value="option6"><b>Master’s Degree</b>
+                  <input type="radio" name="optionsRadios" id="optionsRadios8" value="option8" onclick="enableField()"><b>Master’s Degree</b>
                 </label>
               </div>
               <div class="radio">
                 <label class="form-check-label">
-                  <input type="radio" name="optionsRadios" id="optionsRadios7" value="option7"><b>Doctorate Degree</b>
+                  <input type="radio" name="optionsRadios" id="optionsRadios9" value="option9" onclick="enableField()"><b>Doctorate Degree</b>
                 </label>
               </div>
 					</div>
 
 		<div class="continueButton">
 			<div class="text-center">
-				<button type="button" class="btn btn-default btn-lg" onClick="location.href='index1.html'">Let's continue!</button>
+        <button id="submitbutton" type="button" class="btn btn-default btn-lg" onClick="location.href='index1.html'" disabled>Let's continue!</button>
 			</div>
 		</div>
+</form>
+
 
 	</div>
 

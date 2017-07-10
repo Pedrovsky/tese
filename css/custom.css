@@ -29,7 +29,7 @@ img.marginbot{
 
 p.left{
     text-align: left;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 p.likert{
@@ -38,7 +38,7 @@ p.likert{
 
 p.center{
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 div.probar{
@@ -132,6 +132,6 @@ div.likert{
     float: none;
 }
 
-#colorSlid{
+#fader{
   background-color: rgb(192,192,192);
 }
