@@ -71,3 +71,7 @@ var m = document.getElementById("colorcircle1");
 function enableField() {
 	document.getElementById('submitbutton').disabled = false;
 }
+
+function enableMixButton() {
+	document.getElementById('mixdDoneButton').disabled = false;
+}

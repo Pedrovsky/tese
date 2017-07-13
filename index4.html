@@ -38,14 +38,14 @@
 				</div><!--
 				--><div class="col-md-2 col-xs-12 vcenter">
 					<div id="colorcircle"  style="border:1px solid black;width:3cm;height:3cm;background:#fb0000;border-radius:50%;display:inline-block"></div><!--
-				--><div id="hide"><div class="colorSlider1"><input type="range" min="50" max="250"  value="150" step="50" onInput="changeColorSolo(this.value, 0);" id="fader"></div></div><!--
+				--><div id="hide"><div class="colorSlider1"><input type="range" min="50" max="250"  value="150" step="50" onInput="changeColorSolo(this.value, 0);" id="fader" onclick="enableMixButton()"></div></div><!--
 				--></div><!--
 				--><div class="col-md-2 col-xs-12 vcenter">
 					<img class="img-responsive vcenter" src="imgs/add.png" alt="add">
 				</div><!--
 				--><div class="col-md-2 col-xs-12 vcenter">
 					<div id="colorcircle1"  style="border:1px solid black;width:3cm;height:3cm;background:#0000fb;border-radius:50%;display:inline-block"></div><!--
-				--><div id="hide1"><div class="colorSlider2"><input type="range" min="50" max="250" value="150" step="50" onInput="changeColor(this.value, 2);" id="fader"></div></div><!--
+				--><div id="hide1"><div class="colorSlider2"><input type="range" min="50" max="250" value="150" step="50" onInput="changeColor(this.value, 2);" id="fader" onclick="enableMixButton()"></div></div><!--
 				--></div><!--
 				--><div class="col-md-2  col-xs-12 vcenter center-block">
 					<img id="equal" class="img-responsive" src="imgs/equal.png" alt="equal">
@@ -60,7 +60,7 @@
    			<div class="row">
    				<div class="continueButton">
       				<div id="mixDone" class="text-center">			 			
-      					<button  id="mixdDoneButton" type="button" class="btn btn-default btn-lg" onclick="hideQuestionShowLikert2()">This is the right mixed color, next!</button>
+      					<button  id="mixdDoneButton" type="button" class="btn btn-default btn-lg" onclick="hideQuestionShowLikert2()" disabled="disabled">This is the right mixed color, next!</button>
 		  			</div>
     			</div>
     		</div>
@@ -78,7 +78,7 @@
 			<div class="row">
    				<div class="continueButton">
       				<div id="mixDone" class="text-center">			 			
-      					<button  id="mixdDoneButton" type="button" class="btn btn-default btn-lg" onClick="location.href='index3.html'">Final answer, next mix please!</button>
+      					<button  id="mixdDoneButton" type="button" class="btn btn-default btn-lg" onClick="location.href='index3.html'" >Final answer, next mix please!</button>
 		  			</div>
     			</div>
     		</div>
