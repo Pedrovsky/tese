@@ -32,7 +32,7 @@
       		</div>
     	</div>
 
-		<div id="hide">
+		
 		<p class="center">Please change the slider to the final color that you think the two colors will mix into.</p>
 			<div class="row row-centered"><!--
 				--><div class="col-md-1 vcenter">
@@ -51,11 +51,12 @@
 				</div><!--
 				--><div class="col-md-2 vcenter">
 					<div id="colorcircle"  style="border:1px solid black;width:3cm;height:3cm;background:#fb0000;border-radius:50%;display:inline-block"></div><!--
-				--><div class="colorSlider"><input type="range" min="50" max="250"  value="150" step="40" onChange="changeColorSolo(this.value, 0);" id="fader"></div></div><!--
+				--><div id="hide"><div class="colorSlider"><input type="range" min="50" max="250"  value="150" step="50" onInput="changeColorSolo(this.value, 0);" id="fader"></div></div></div><!--
 				--><div class="col-md-1 vcenter">
 				</div><!--
    			--></div>
-
+	
+   		<div id="hide1">
    			<div class="row">
    				<div class="continueButton">
       				<div id="mixDone" class="text-center">			 			

@@ -14,11 +14,12 @@ p.title{
 }
 
 img.resizecenter{
-    max-width:25%;
-    max-height:25%;
+    max-width:20%;
+    max-height:20%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 1%
 }
 
 
@@ -53,11 +54,6 @@ div.probar{
 
 div.continueButton{
     margin-top: 1%;
-}
-
-div.likert{
-  margin-top: 1%;
-  margin-bottom: 1%;
 }
 
 .circle {

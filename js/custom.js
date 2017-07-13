@@ -8,11 +8,17 @@ function hideQuestionShowLikert() {
     } else {
         x.style.display = 'none';
     }
-    var y = document.getElementById('show');
-    if (y.style.display ==='none') {
-    	y.style.display = 'block';
+    var y = document.getElementById('hide1');
+    if (y.style.display === 'none') {
+        y.style.display = 'block';
     } else {
-    	y.style.display = 'none';
+        y.style.display = 'none';
+    }
+    var z = document.getElementById('show');
+    if (z.style.display ==='none') {
+    	z.style.display = 'block';
+    } else {
+    	z.style.display = 'none';
     }
 }
 
