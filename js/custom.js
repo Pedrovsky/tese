@@ -22,6 +22,33 @@ function hideQuestionShowLikert() {
     }
 }
 
+function hideQuestionShowLikert2() {
+    var x = document.getElementById('hide');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+    var y = document.getElementById('hide1');
+    if (y.style.display === 'none') {
+        y.style.display = 'block';
+    } else {
+        y.style.display = 'none';
+    }
+    var w = document.getElementById('hide2');
+    if (w.style.display === 'none') {
+        w.style.display = 'block';
+    } else {
+        w.style.display = 'none';
+    }
+    var z = document.getElementById('show');
+    if (z.style.display ==='none') {
+    	z.style.display = 'block';
+    } else {
+    	z.style.display = 'none';
+    }
+}
+
 var n = document.getElementById("colorcircle");
 function changeColorSolo(val,color){
 var n = document.getElementById("colorcircle");
