@@ -1,6 +1,3 @@
-
-
-
 function hideQuestionShowLikert() {
     var x = document.getElementById('hide');
     if (x.style.display === 'none') {
@@ -74,4 +71,22 @@ function enableField() {
 
 function enableMixButton() {
 	document.getElementById('mixdDoneButton').disabled = false;
+}
+
+window.onload = function() {
+        var spans = document.getElementsByTagName('span');
+        for(var i = 0; i < spans.length; i++) {
+            var s = spans[i];
+            s.onclick = changeColor;
+    }
+}
+
+function changeColor() {
+	var a = document.getElementsByTagName('span');
+	var b = document.getElementsByTagName('span');
+		for(var p = 0; p < a.length; p++) {
+			var o = a[p];
+			var q = b[p];			
+			o.style.color = "gold"; // forecolor
+		}
 }
