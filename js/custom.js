@@ -81,7 +81,7 @@ window.onload = function() {
     }
 }
 
-function changeColor() {
+function changeSpanColor() {
 	var a = document.getElementsByTagName('span');
 	var b = document.getElementsByTagName('span');
 		for(var p = 0; p < a.length; p++) {
@@ -89,4 +89,14 @@ function changeColor() {
 			var q = b[p];			
 			o.style.color = "gold"; // forecolor
 		}
+}
+
+function handleMixer(val, color){
+	changeColorSolo(val, color);
+	enableMixButton();
+}
+
+function handle2ndMixer(val, color){
+	changeColor(val, color);
+	enableMixButton();
 }
