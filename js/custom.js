@@ -46,7 +46,6 @@ function hideQuestionShowLikert2() {
     }
 }
 
-var n = document.getElementById("colorcircle");
 function changeColorSolo(val,color){
 var n = document.getElementById("colorcircle");
     switch (color) {
@@ -81,7 +80,7 @@ window.onload = function() {
     }
 }
 
-function changeSpanColor() {
+function changeSpan3Color() {
 	var a = document.getElementsByTagName('span');
 	var b = document.getElementsByTagName('span');
 		for(var p = 0; p < a.length; p++) {
